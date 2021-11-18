@@ -1,0 +1,419 @@
+body{
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:dimgray;
+}
+
+.content{
+   margin-left: auto;
+    margin-right: auto;
+    background-color:dimgray;
+}
+
+
+
+.container-fluid {
+    display: block;
+    position: fixed;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    background-color: rgba(0,0,0,0.9);
+    font-size: 20px;
+    float: left;
+    height: 60px;
+    box-sizing: border-box;
+    z-index: 100;
+}
+.container-fluid a {
+    color: white;
+}
+.nav-menu-container {
+float: right;
+margin: 0;
+}
+.nav-menu-container > a {
+
+/*display: block;*/
+
+box-sizing: border-box;
+}
+.nav-menu a,
+.nav-menu li {
+
+text-decoration: none;
+padding: 0;
+
+list-style: none;
+margin-left: 10px;
+float: left;
+}
+
+.nav-menu ul {
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    position: relative;
+}
+
+.nav-menu a:hover{
+color: #18d26e;
+}
+
+.logo,
+nav ul li a {
+height: 30px;
+}
+
+nav ul {
+margin: 0;
+}
+
+nav ul li a {
+height: 40px;
+display: inline-block;
+}
+
+
+.logo {
+margin: 0;
+float: left;
+text-decoration: none;
+box-sizing: border-box;
+}
+
+.intro-my{
+    /* width: 50%; */
+    display: flex;
+
+
+}
+
+.My-photos{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+
+.detalis-about-me{
+    margin: 60px auto;
+    width: 50%;
+
+}
+
+.detalis-about-me div{
+    padding: 20px;
+}
+
+.my-photo-block{
+    width: 50%;
+}
+.section-header{
+    width: 25%;
+    padding-top: 60px;
+    padding-bottom: 5px;
+    line-height: 1;
+    text-align: center;
+    font-size: 45px;
+    border-bottom: thin solid #18d26e;
+    margin: 0 auto;
+}
+
+.education-block{
+    background-image: url(../images/education.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.education-table{
+    width: 55%;
+    margin: 15px 50px;
+}
+
+.education-table td{
+    padding: 10px;
+}
+
+.technical-block{
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+/* .technical-block::after{
+    content: "";
+    background-image: url(../images/bgimage1.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.15;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    box-sizing: border-box;
+} */
+
+.skills-line{
+    display: flex;
+    margin-top: 10px;
+    padding: 20px 20px 0 20px;
+}
+
+
+.card-wrapper {
+    padding: 0 20px 10px;
+}
+
+.icon-class{
+    display: block;
+    margin: 0 auto;
+}
+.card {
+    background-color: white;
+    display: block;
+    padding: 10px 20px 0px 20px;
+    height: 100%;
+    position: relative;
+    transition: all .3s linear;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+
+
+.card-text{
+    width: 100%;
+    font-size: 18px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.icon-sn {
+    display: inline-block;
+    background: #333;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/icons-sn.png);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.facebook:hover {
+    background-position: -50px 0;
+}
+
+.instagram {
+    background-position: 0 -50px;
+}
+
+    .instagram:hover  {
+        background-position: -50px -50px;
+    }
+
+.skype {
+    background-position: 0 -100px;
+}
+
+    .skype:hover  {
+        background-position: -50px -100px;
+    }
+.linkedin {
+    background-position: 0 -150px;
+}
+
+    .linkedin:hover  {
+        background-position: -50px -150px;
+    }
+
+.git{
+    background-position: 0 -200px;
+}
+        .git:hover  {
+        background-position: -50px -200px;
+    }
+
+.contact-block{
+    padding: 20px 0 50px;
+    background-image: url(../images/quino-al-4SNUcHPiC8c-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contact-content{
+    display: table;
+    margin: 0 auto;
+    align-self: center;
+}
+
+
+.pr-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.project {
+    float: left;
+    width: 25%;
+    
+    background-color: white;
+    box-sizing: border-box;
+    
+    border-radius: 10px;
+}
+.project a {
+    text-decoration:none;
+    text-align:center;
+}
+.project a:visited{
+    color: #000;
+}
+    .project img {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px 10px 0 0;
+        display: block;
+        transition: all 0.2s ease-in-out;
+    }
+    .project p{
+        margin:10px;
+    }
+
+    .not-active {
+        opacity: 0.6;
+        transform: scale(0.92);
+        pointer-events: none;
+    }
+
+    .active {
+        opacity: 1;
+        transform: scale(1) ;
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+    }
+
+    .group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+
+
+.portfolio{
+    margin-bottom: 20px;
+}
+
+
+.arrow {
+    height: 60px;
+    padding: 0;
+    background: white;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444;
+    display: block;
+    margin: auto 0;
+
+  }
+  
+  .arrow:focus {
+    outline: none;
+  }
+  
+  .arrow:hover {
+    background: #18d26e;
+    cursor: pointer;
+  }
+
+  .card:hover{
+    transform: scale(1.1) ;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+  }
+
+
+@media screen and (max-width: 880px) {
+    .my-name{
+        font-size: 25px;
+    }
+
+    body{
+        font-size: 15px;
+    }
+
+    .detalis-about-me{
+        width: 80%;
+    
+    }
+
+    .section-header{
+        font-size: 25px;
+    }
+
+    .skills-line{
+        display: block;
+    }
+
+    .intro-my{
+        display: block;
+    }
+    .my-photo-block{
+        width: 100%;
+    }
+    .education-table{
+        width: 85%;
+        margin: 0;
+
+    }
+
+    .not-active{
+        opacity: 1;
+        transform: scale(1) ;
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+        pointer-events:all;
+    }
+
+    .pr-container{
+        flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    }
+
+    .project{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .card-text, .nav-menu-container,.arrow{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .project{
+        width: 95%;
+        margin-bottom: 10px;
+    }
+}
