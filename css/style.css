@@ -36,7 +36,6 @@ margin: 0;
 }
 .nav-menu-container > a {
 
-/*display: block;*/
 
 box-sizing: border-box;
 }
@@ -85,7 +84,6 @@ box-sizing: border-box;
 }
 
 .intro-my{
-    /* width: 50%; */
     display: flex;
 
 
@@ -142,21 +140,6 @@ box-sizing: border-box;
     background-color: white;
 }
 
-/* .technical-block::after{
-    content: "";
-    background-image: url(../images/bgimage1.jpg);
-    background-size: 150%;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.15;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: 1;
-    box-sizing: border-box;
-} */
 
 .skills-line{
     display: flex;
